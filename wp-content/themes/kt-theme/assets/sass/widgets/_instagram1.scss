@@ -1,0 +1,31 @@
+.section-widget-instagram {
+    &.layout-1 {
+        background-color: #fff;
+        padding: 75px 0 105px;
+
+        .title {
+            margin-bottom: 30px;
+
+            .logo {
+                text-align: center;
+                
+                i {
+                    color: $color-primary;
+                    font-size: 29px;
+                }
+            }
+
+            .user {
+                font-size: 15px;
+                font-weight: $font-weight-regular;
+                color: $color-default;
+                text-align: center;
+
+                a {
+                    font-weight: $font-weight-bold;
+                    font-family: $font-family-general;
+                }
+            }
+        }
+    }
+}

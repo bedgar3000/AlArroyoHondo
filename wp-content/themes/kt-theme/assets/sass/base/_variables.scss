@@ -1,0 +1,45 @@
+// colores
+$color-primary-light: #DEE3DA;
+$color-primary-light-1: #d3d8ce;
+$color-primary: #597348;
+$color-primary-1: #597348;
+$color-primary-2: #597348;
+$color-primary-3: #597348;
+$color-primary-dark: #597348;
+$color-secondary: #5E5452;
+$color-secondary-1: #5E5452;
+$color-secondary-dark: #413735;
+$color-default: #333333;
+$color-default-1: #666666;
+$color-default-2: #444444;
+$color-default-3: #1F1F1F;
+$color-default-dark: #000000;
+
+// font weights
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+// font families
+$font-family-general: 'Montserrat', sans-serif;
+$font-family-title: 'Montserrat', sans-serif;
+
+// menu
+$header-height: 80px;
+$header-width: 1400px;
+$header-bg-underline: transparent;
+$header-bg-dropdown: #fff;
+$header-font-size: 16px;
+$header-font-weight: $font-weight-bold;
+$header-color: $color-primary;
+$header-color-active: $color-primary;
+$header-font-size-dropdown: 16px;
+$header-font-weight-dropdown: $font-weight-bold;
+$header-color-dropdown: $color-primary;
+$header-color-active-dropdown: $color-primary;

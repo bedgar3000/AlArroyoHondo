@@ -1,0 +1,32 @@
+.btn {
+    &.btn-outline-primary {
+        background-color: transparent;
+        border-color: $color-primary-1;
+        color: $color-primary-1;
+        line-height: 1.5;
+
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled):active:focus,
+        &:focus,
+        &:active,
+        &.active,
+        &:hover {
+            background-color: $color-primary-1;
+            border-color: $color-primary-1;
+            color: #fff !important;
+            box-shadow: none;
+
+            .icon-test-drive {
+                background-image: url(../images/icons/icon-test-drive-white.svg);
+            }
+
+            .icon-ficha-tecnica {
+                background-image: url(../images/icons/icon-ficha-tecnica-white.png);
+            }
+
+            .icon-cotizacion {
+                background-image: url(../images/icons/icon-cotizacion-white.svg);
+            }
+        }
+    }
+}

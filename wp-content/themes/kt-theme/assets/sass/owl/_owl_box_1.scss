@@ -1,0 +1,80 @@
+.owl-carousel {
+    &.owl-theme {
+        width: 100%;
+        
+        &.owl-box-1 {
+            position: relative;
+    
+            .owl-nav {
+                position: absolute;
+                top: calc(50% - 9.5px);
+                left: -30px;
+                width: calc(100% + 60px);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 1px;
+    
+                button {
+                    background: unset;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 26px;
+                    height: 19px;
+                    
+                    span {
+                        display: none;
+                    }
+    
+                    &.owl-prev {
+                        background-image: url(../images/icons/icon-owl-prev.svg);
+                    }
+    
+                    &.owl-next {
+                        background-image: url(../images/icons/icon-owl-next.svg);
+                    }
+
+                    &:hover {
+                        background: unset;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+    
+                        &.owl-prev {
+                            background-image: url(../images/icons/icon-owl-prev.svg);
+                        }
+        
+                        &.owl-next {
+                            background-image: url(../images/icons/icon-owl-next.svg);
+                        }
+                    }
+                }
+
+                &.disabled {
+                    display: none !important;
+                }
+            }
+            
+            .owl-dots {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                .owl-dot {
+                    span {
+                        background: #ccc;
+                        width: 14px;
+                        height: 14px;
+                    }
+
+                    &.active {
+                        span {
+                            background: $color-primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+main {
+    &.main {
+        &.main-faqs {
+            &.layout-1 {
+                padding: 90px 0 135px;
+                
+                .accordion {
+                    &.accordion-faqs {
+                        .accordion-item {
+                            border-left: 0;
+                            border-right: 0;
+                            border-top: 0;
+                            border-bottom: 1px solid #eee;
+                            font-size: 16px;
+                            font-weight: $font-weight-regular;
+                            font-family: $font-family-general;
+                            color: $color-default;
+                            line-height: 1.5;
+
+                            &:first-of-type {
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                            }
+
+                            &:last-of-type {
+                                border-bottom-right-radius: 0;
+                                border-bottom-left-radius: 0;
+                            }
+                        }
+
+                        .accordion-button {
+                            font-size: 16px;
+                            font-weight: $font-weight-medium;
+                            font-family: $font-family-general;
+                            color: $color-default;
+                            line-height: 1.2;
+
+                            &::after {
+                                width: 21px;
+                                height: 15px;
+                                background-image: url(../images/icons/icon-caret-close-primary.svg);
+                            }
+
+                            &:not(.collapsed),
+                            &:focus {
+                                background-color: #eee;
+                                outline: 0;
+                                box-shadow: none;
+                            }
+
+                            &:not(.collapsed) {
+                                &::after {
+                                    background-image: url(../images/icons/icon-caret-open-primary.svg);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="Untitled-P%E1gina%201" viewBox="0 0 38 53" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="38px" height="53px"
+>
+	<defs>
+		<filter id="filter1" x="-100%" y="-100%" width="300%" height="300%">
+			<!-- Sombra -->
+			<feOffset result="out" in="SourceGraphic" dx="2.1213" dy="2.1213"/>
+			<feColorMatrix result="out" in="out" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.3294 0"/>
+			<feGaussianBlur result="out" in="out" stdDeviation="4"/>
+			<feBlend in="SourceGraphic" in2="out" mode="normal" result="Sombra1"/>
+		</filter>
+	</defs>
+	<g id="Capa%201">
+		<path id="Forma%201" filter="url(#filter1)" d="M 8.1152 49 C 7.3197 49 6.5211 48.7468 5.9128 48.2371 C 4.6957 47.218 4.6957 45.5695 5.9128 44.5519 L 27.4836 26.5002 L 5.9128 8.4469 C 4.6957 7.4293 4.6957 5.7809 5.9128 4.7632 C 7.1296 3.7456 9.1 3.7456 10.3168 4.7632 L 34.0874 24.6591 C 35.3042 25.6744 35.3042 27.3244 34.0874 28.3412 L 10.3168 48.2371 C 9.7087 48.7452 8.9122 49 8.1152 49 Z" fill="#ffffff"/>
+	</g>
+</svg>

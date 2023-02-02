@@ -1,0 +1,17 @@
+.btn {
+  &.btn-secondary {
+      background-color: $color-secondary;
+      border-color: $color-secondary;
+      color: #fff;
+
+      &:not(:disabled):not(.disabled):active,
+      &:not(:disabled):not(.disabled):active:focus,
+      &:focus,
+      &:active,
+      &:hover {
+          background-color: $color-secondary-dark;
+          border-color: $color-secondary-dark;
+          box-shadow: none;
+      }
+  }
+}

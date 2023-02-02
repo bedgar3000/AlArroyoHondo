@@ -1,0 +1,167 @@
+footer {
+    &.footer {
+        &.custom-2 {
+            padding: 75px 0 90px;
+            color: $color-default-2;
+            font-size: 16px;
+            font-weight: $font-weight-medium;
+            
+            .widget {
+                .widget-title {
+                    font-size: 26px;
+                    font-weight: $font-weight-regular;
+                    color: $color-default-2;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin: -26px 15px 0;
+                    }
+                }
+
+                .contact-info {
+                    display: flex;
+                    align-items: center;
+
+                    .contact-item {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 15px;
+
+                        .item-icon {
+                            width: 39px;
+                            height: 39px;
+                            min-width: 39px;
+                            background-color: $color-primary-light;
+                            border-radius: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 7.5px;
+
+                            i {
+                                color: $color-primary;
+                            }
+                        }
+                    }
+                }
+                
+                a {
+                    color: $color-default-2;
+                }
+
+                .copyright {
+                    font-size: 13px;
+                    font-weight: $font-weight-regular;
+                    text-align: right;
+                    padding-right: 10px;
+                }
+            }
+
+            @media(min-width: 1200px) {
+                .col-ventas {
+                    flex: 0 0 auto;
+                    width: 32.66666667%;
+                }
+                
+                .col-social {
+                    flex: 0 0 auto;
+                    width: 27%;
+                }
+                
+                .col-copyright {
+                    flex: 0 0 auto;
+                    width: 39.33333333%;
+                }
+            }
+
+            @media(min-width: 1400px) {
+                .col-ventas {
+                    flex: 0 0 auto;
+                    width: 37.66666667%;
+                }
+                
+                .col-social {
+                    flex: 0 0 auto;
+                    width: 29%;
+                }
+                
+                .col-copyright {
+                    flex: 0 0 auto;
+                    width: 33.33333333%;
+                }
+            }
+
+            @media(min-width: 1600px) {
+                .col-ventas {
+                    flex: 0 0 auto;
+                    width: 40.66666667%;
+                }
+                
+                .col-social {
+                    flex: 0 0 auto;
+                    width: 29%;
+                }
+                
+                .col-copyright {
+                    flex: 0 0 auto;
+                    width: 30.33333333%;
+                }
+            }
+
+            @media(min-width: 1800px) {
+                .container {
+                    max-width: 1560px;
+                }
+            }
+
+            @media(max-width: 1599px) {
+                .widget .contact-info {
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    .contact-item {
+                        margin-bottom: 7.5px;
+                    }
+                }
+            }
+
+            @media(max-width: 1199px) {
+                .widget {
+                    margin-bottom: 30px;
+                }
+
+                .container {
+                    max-width: 576px;
+                }
+
+                .col-copyright .widget .widget-title {
+                    justify-content: center;
+                }
+                .widget .copyright {
+                    text-align: center;
+                }
+            }
+
+            @media(max-width: 575px) {
+                .widget .widget-title {
+                    flex-direction: column;
+
+                    img {
+                        margin: 5px 0 0;
+                    }
+                }
+
+                .widget .copyright {
+                    span {
+                        display: block;
+                    }
+
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

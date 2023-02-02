@@ -1,0 +1,32 @@
+.btn {
+    font-size: 15px;
+    font-weight: $font-weight-bold;
+    height: 45px;
+    line-height: 1.5;
+
+    &.btn-pill {
+        border-radius: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    &.w-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        span, i {
+            margin: 0 4px;
+        }
+    }
+
+    &.btn-md {
+        height: 53px;
+    }
+}
+
+@import 'btn_primary';
+@import 'btn_secondary';
+@import 'btn_outline_secondary';
+@import 'btn_outline_primary';
+@import 'btn_outline_light';

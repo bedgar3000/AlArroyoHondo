@@ -1,0 +1,25 @@
+.owl-carousel {
+    &.owl-theme {
+        .owl-dots {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            .owl-dot {
+                span {
+                    background: #ccc;
+                    width: 10px;
+                    height: 10px;
+                }
+
+                &.active {
+                    span {
+                        background: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import 'owl_box_1';

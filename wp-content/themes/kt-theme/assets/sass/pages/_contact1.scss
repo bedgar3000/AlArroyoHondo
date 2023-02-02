@@ -1,0 +1,179 @@
+main {
+    &.main {
+        &.main-contact {
+            &.layout-1 {
+                padding: 0 0 150px;
+                position: relative;
+                        
+                @media(max-width: 767px) {
+                    padding: 0 0 75px;
+                }
+
+                .section-contact-info {
+                    background-color: $color-secondary;
+                    padding: 60px 0 200px;
+                    color: #fff;
+                    position: relative;
+                    z-index: 1;
+
+                    .section-title {
+                        h1 {
+                            font-size: 40px;
+                            font-weight: $font-weight-bold;
+                            line-height: 1.5;
+                            color: #fff;
+                            text-align: center;
+                            margin-bottom: 0;
+                        
+                            @media(max-width: 767px) {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+
+                    a {
+                        color: #fff;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+                    
+                    .grid-contact-info {
+                        display: flex;
+                        justify-content: center;
+
+                        .contact-info {
+                            padding: 30px 45px;
+                            position: relative;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: $font-weight-regular;
+                            line-height: 1.2;
+
+                            @media(max-width: 1599px) {
+                                font-size: 14px;
+                            }
+
+                            @media(max-width: 1399px) {
+                                padding: 30px 25px;
+                            }
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                width: 1px;
+                                height: 122px;
+                                background-color: rgba(#ffffff, 0.10);
+                                top: calc(50% - 61px);
+                                right: 0;
+                            }
+
+                            &:last-of-type {
+                                &::after {
+                                    content: unset;
+                                }
+                            }
+
+                            .contact-icon {
+                                background-color: $color-primary;
+                                width: 64px;
+                                height: 64px;
+                                border-radius: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 15px auto;
+                            }
+                        }
+                        
+                        @media(max-width: 1199px) {
+                            flex-wrap: wrap;
+
+                            .contact-info {
+                                width: 50%;
+
+                                &:nth-child(2) {
+                                    &::after {
+                                        content: unset;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        @media(max-width: 767px) {
+                            .contact-info {
+                                width: 100%;
+                                padding: 10px 0;
+
+                                &:nth-child(1),
+                                &:nth-child(3) {
+                                    &::after {
+                                        content: unset;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .section-maps {
+                    position: relative;
+                    z-index: 2;
+                    margin-top: -125px;
+                    
+                    .maps {
+                        width: 100%;
+                        max-width: 1080px;
+                        height: 379px;
+                        margin: auto;
+
+                        iframe {
+                            width: 100% !important;
+                            height: 100% !important;
+                        }
+                    }
+                }
+
+                .section-form {
+                    padding: 60px 0 0;
+
+                    .section-title {
+                        text-align: center;
+
+                        h2 {
+                            font-size: 29px;
+                            font-weight: $font-weight-semi-bold;
+                            line-height: 1.2;
+                            color: $color-default-dark;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            font-weight: $font-weight-regular;
+                            line-height: 1.2;
+                            color: $color-default;
+                            margin: 0;
+                        }
+                        
+                        @media(max-width: 767px) {
+                            h2 {
+                                font-size: 25px;
+                            }
+                            
+                            p {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+
+                    .contact-form {
+                        width: 100%;
+                        max-width: 704px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

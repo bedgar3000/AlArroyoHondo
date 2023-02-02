@@ -1,0 +1,120 @@
+.contact-form {
+    &.wpf-3 {
+        .wpforms-container {
+            .wpforms-form {
+                .wpforms-field-container {
+                    display: flex;
+                    gap: 15px;
+                    flex-wrap: wrap;
+
+                    .wpforms-field {
+                        width: 100%;
+                        padding: 0 0;
+                        margin-bottom: 10px;
+
+                        .wpforms-field-small,
+                        .wpforms-field-medium,
+                        .wpforms-field-large {
+                            width: 100%;
+                            max-width: 100%;
+                            min-height: 52px;
+                            background-color: transparent;
+                            border-color: #fff;
+                            border-radius: 0;
+                            border-width: 2px;
+                            box-shadow: none;
+                            color: #fff;
+                            font-size: 16px;
+                            font-weight: $font-weight-regular;
+                            line-height: 1;
+
+                            &:focus {
+                                border-color: #fff;
+                            }
+
+                            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                                color: #fff;
+                                opacity: 1; /* Firefox */
+                            }
+                            
+                            &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                                color: #fff;
+                            }
+                            
+                            &::-ms-input-placeholder { /* Microsoft Edge */
+                                color: #fff;
+                            }
+                        }
+
+                        &.wpforms-one-half {
+                            max-width: calc(50% - 7.5px);
+                            margin-left: 0;
+                        }
+
+                        select {
+                            margin: 0;      
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            background-image: url(../images/icons/icon-input-caret.svg);
+                            background-position: calc(100% - 15px) center;
+                            background-repeat: no-repeat;
+                            background-size: 15px 10px;
+                        }
+
+                        &.kt-wapper-datepicker {
+                            input {
+                                background-image: url(../images/icons/icon-input-datepicker.svg);
+                                background-position: calc(100% - 15px) center;
+                                background-repeat: no-repeat;
+                                background-size: 21px 21px;
+                            }
+                        }
+                    }
+                }
+
+                .wpforms-submit-container {
+                    padding: 15px 0 0;
+                    text-align: center;
+
+                    .wpforms-submit {
+                        background-color: #fff;
+                        border-color: #fff;
+                        color: #5E5452;
+                        border-radius: 0;
+                        font-size: 20px;
+                        font-weight: $font-weight-bold;
+                        min-height: 52px;
+                        padding: 0 0 0 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                
+                        &:not(:disabled):not(.disabled):active,
+                        &:not(:disabled):not(.disabled):active:focus,
+                        &:focus,
+                        &:active,
+                        &:hover {
+                            background-color: #eee;
+                            border-color: #eee;
+                            box-shadow: none;
+                        }
+                    }
+                }
+
+                label.wpforms-error {
+                    margin: 2.5px 0;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .contact-form.wpf-3 .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.wpforms-one-half {
+        max-width: 100%;
+    }
+}

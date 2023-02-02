@@ -1,0 +1,155 @@
+.section-banner {
+    &.layout-1 {
+        position: relative;
+        z-index: 1;
+
+        img {
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: 250px;
+            object-fit: cover;
+            z-index: 2;
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 3;
+            display: flex;
+            align-items: flex-end;
+            padding: 45px 0 45px;
+            color: #fff;
+
+            .title {
+                font-size: 68px;
+                font-weight: $font-weight-bold;
+                line-height: 1;
+                color: #fff;
+            }
+
+            .subtitle {
+                font-size: 28px;
+                font-weight: $font-weight-bold;
+                line-height: 1;
+            }
+
+            .price {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px 30px;
+                font-size: 30px;
+                font-weight: $font-weight-black;
+                line-height: 1;
+                margin-left: auto;
+                background-color: $color-primary;
+                border-radius: 30px;
+            }
+
+            .note {
+                font-size: 20px;
+                font-weight: $font-weight-semi-bold;
+                line-height: 1;
+                margin: 10px 0;
+            }
+
+            .notes {
+                text-align: right;
+            }
+        }
+
+        &.montacargas {
+            .content {
+                align-items: center;
+
+                .title {
+                    font-size: 50px;
+                    margin-bottom: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1399px) {
+    .section-banner.layout-1 .content .title,
+    .section-banner.layout-1.montacargas .content .title {
+        font-size: 48px;
+    }
+    .section-banner.layout-1 .content .subtitle {
+        font-size: 20px;
+    }
+    .section-banner.layout-1 .content .price {
+        font-size: 24px;
+    }
+    .section-banner.layout-1 .content .note {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .section-banner.layout-1 .content .title,
+    .section-banner.layout-1.montacargas .content .title {
+        font-size: 38px;
+    }
+    .section-banner.layout-1 .content .subtitle {
+        font-size: 18px;
+    }
+    .section-banner.layout-1 .content .price {
+        font-size: 20px;
+    }
+    .section-banner.layout-1 .content .note {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 991px) {
+    .section-banner.layout-1 .content .notes {
+        text-align: left;
+    }
+}
+
+@media(max-width: 767px) {
+    .section-banner.layout-1 .content .title,
+    .section-banner.layout-1.montacargas .content .title {
+        font-size: 28px;
+    }
+    .section-banner.layout-1 .content .subtitle {
+        font-size: 14px;
+    }
+    .section-banner.layout-1 .content .price {
+        font-size: 16px;
+    }
+    .section-banner.layout-1 .content .note {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 575px) {
+    .section-banner.layout-1 .content .title, .section-banner.layout-1.montacargas .content .title {
+        font-size: 20px;
+    }
+    .section-banner.layout-1 .content .subtitle {
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+    .section-banner.layout-1 .content .price {
+        font-size: 10px;
+        padding: 7.5px 15px;
+    }
+    .section-banner.layout-1 .content .note {
+        font-size: 8px;
+        margin: 4px 0;
+    }
+    .section-banner.layout-1 .content {
+        padding: 45px 0 15px;
+    }
+    .section-banner.layout-1 .content .notes {
+        text-align: right;
+    }
+}

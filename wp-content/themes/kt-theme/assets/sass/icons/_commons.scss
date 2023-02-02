@@ -1,0 +1,96 @@
+.icon {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.icon-btn-go {
+        background-image: url(../images/icons/icon-btn-go.svg);
+        width: 9px;
+        height: 14px;
+    }
+
+    &.icon-btn-go-primary {
+        background-image: url(../images/icons/icon-btn-go-primary.svg);
+        width: 9px;
+        height: 14px;
+    }
+
+    &.icon-btn-go-white {
+        background-image: url(../images/icons/icon-btn-go-white.svg);
+        width: 9px;
+        height: 14px;
+    }
+
+    &.icon-scroll-to-white {
+        background-image: url(../images/icons/icon-scroll-to-white.svg);
+        width: 17px;
+        height: 10px;
+    }
+
+    &.icon-scroll-to-primary {
+        background-image: url(../images/icons/icon-scroll-to-primary.svg);
+        width: 17px;
+        height: 10px;
+    }
+
+    &.icon-test-drive {
+        background-image: url(../images/icons/icon-test-drive.svg);
+        width: 29px;
+        height: 29px;
+    }
+
+    &.icon-ficha-tecnica {
+        background-image: url(../images/icons/icon-ficha-tecnica.png);
+        width: 29px;
+        height: 26px;
+    }
+
+    &.icon-cotizacion {
+        background-image: url(../images/icons/icon-cotizacion.svg);
+        width: 26px;
+        height: 26px;
+    }
+
+    &.icon-contact-email-white {
+        background-image: url(../images/icons/icon-contact-email-white.svg);
+        width: 31px;
+        height: 22px;
+    }
+
+    &.icon-contact-email-primary {
+        background-image: url(../images/icons/icon-contact-email-primary.svg);
+        width: 21px;
+        height: 15px;
+    }
+
+    &.icon-contact-address-white {
+        background-image: url(../images/icons/icon-contact-address-white.svg);
+        width: 23px;
+        height: 35px;
+    }
+
+    &.icon-contact-phone-white {
+        background-image: url(../images/icons/icon-contact-phone-white.svg);
+        width: 23px;
+        height: 32px;
+    }
+
+    &.icon-contact-phone-primary {
+        background-image: url(../images/icons/icon-contact-phone-primary.svg);
+        width: 16px;
+        height: 22px;
+    }
+
+    &.icon-contact-schedule-white {
+        background-image: url(../images/icons/icon-contact-schedule-white.svg);
+        width: 37px;
+        height: 37px;
+    }
+
+    &.icon-submit-white {
+        background-image: url(../images/icons/icon-submit-white.svg);
+        width: 21px;
+        height: 18px;
+    }
+}

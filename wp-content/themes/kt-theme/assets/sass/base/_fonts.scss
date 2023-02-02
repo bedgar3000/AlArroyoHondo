@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+
+// Gotham
+@font-face {
+    font-family: "Gotham-Black";
+    src: url("../fonts/Gotham/Gotham-Black.otf") format("opentype");
+}
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("../fonts/Gotham/Gotham-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("../fonts/Gotham/Gotham-Book.otf") format("opentype");
+}
+@font-face {
+    font-family: "Gotham-Light";
+    src: url("../fonts/Gotham/Gotham-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("../fonts/Gotham/Gotham-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "GothamNarrow-Bold";
+    src: url("../fonts/Gotham/GothamNarrow-Bold.otf") format("opentype");
+}
+
+// FF_DIN_Condensed_Bold
+@font-face {
+    font-family: "DINCond-Bold";
+    src: url("../fonts/FF_DIN_Condensed_Bold.otf") format("opentype");
+}
+
+//  KiaSignature
+@font-face {
+    font-family: "KiaSignature-Bold";
+    src: url("../fonts/KiaSignature/KiaSignatureBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "KiaSignature-Light";
+    src: url("../fonts/KiaSignature/KiaSignatureLight.ttf") format("truetype");
+}
+@font-face {
+    font-family: "KiaSignature-Regular";
+    src: url("../fonts/KiaSignature/KiaSignatureRegular.ttf") format("truetype");
+}
